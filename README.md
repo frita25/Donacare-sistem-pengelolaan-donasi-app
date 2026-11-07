@@ -18,7 +18,6 @@ Aplikasi web untuk mencatat data donatur, mencatat transaksi donasi, dan menampi
 
 Buka tautan di atas pada peramban. Tidak perlu login dan tidak perlu menginstal apa pun.
 
-> Jika tautan hosting tidak dapat dibuka (misalnya hosting gratis sedang gangguan), gunakan cara menjalankan lokal di bawah.
 
 **Repository:** https://github.com/[USERNAME-GITHUB]/donasi-app
 
