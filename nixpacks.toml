@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["php", "phpPackages.composer"]
+
+[phases.build]
+cmds = []
