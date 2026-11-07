@@ -1,0 +1,8 @@
+{
+  "providers": ["php"],
+  "phases": {
+    "setup": {
+      "nixPkgs": ["php", "phpPackages.composer", "pdo_mysql", "mysqli"]
+    }
+  }
+}
