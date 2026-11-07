@@ -1,2 +1,0 @@
-[phases.setup]
-phpPkgs = ["pdo_mysql", "mysqli", "mbstring", "openssl"]
