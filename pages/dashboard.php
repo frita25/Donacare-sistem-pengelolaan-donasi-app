@@ -87,7 +87,7 @@ foreach ($metodeDonasi as $metode) {
                 <span>Total Dana Terkumpul</span>
                 <div class="stat-icon">💰</div>
             </div>
-            <h3>Rp <?= number_format($totalDana, 0, ',', '.') ?></h3>
+            <h3><?= tampilNominal($totalDana) ?></h3>
             <small>Total seluruh nominal donasi</small>
         </div>
 
@@ -128,7 +128,7 @@ foreach ($metodeDonasi as $metode) {
                                     <?= htmlspecialchars($metode['metode_pembayaran']) ?>
                                 </span>
                                 <strong>
-                                    Rp <?= number_format($metode['total'], 0, ',', '.') ?>
+                                    <?= tampilNominal($metode['total']) ?>
                                 </strong>
                             </div>
                             <div class="payment-progress">
@@ -228,7 +228,7 @@ foreach ($metodeDonasi as $metode) {
                                     </span>
                                 </td>
                                 <td class="dashboard-nominal">
-                                    Rp <?= number_format($transaksi['nominal'], 0, ',', '.') ?>
+                                    <?= tampilNominal($transaksi['nominal']) ?>
                                 </td>
                             </tr>
                         <?php endforeach; ?>
@@ -243,5 +243,4 @@ foreach ($metodeDonasi as $metode) {
             </table>
         </div>
     </section>
-
 </div>
