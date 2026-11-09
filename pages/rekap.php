@@ -48,7 +48,7 @@ $daftarRekap = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // Format rupiah
 function formatRupiah($angka) {
-    return 'Rp ' . number_format((float)$angka, 0, ',', '.');
+    return tampilNominal($angka);
 }
 
 // Nama bulan Indonesia
