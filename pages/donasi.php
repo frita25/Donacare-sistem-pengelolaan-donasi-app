@@ -1,4 +1,3 @@
-
 <?php
 // =====================================
 // PROSES TAMBAH, EDIT, DAN HAPUS DONASI
@@ -410,7 +409,7 @@ $filterAktif = (
                                     <?= date('d-m-Y', strtotime($donasi['tanggal_donasi'])) ?>
                                 </td>
                                 <td>
-                                    Rp <?= number_format((float)$donasi['nominal'], 0, ',', '.') ?>
+                                    <?= tampilNominal($donasi['nominal']) ?>
                                 </td>
                                 <td>
                                     <span class="donasi-method">
